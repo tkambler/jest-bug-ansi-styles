@@ -11,7 +11,6 @@ module.exports = {
       'module.scss',
     ],
     moduleNameMapper: {
-      "^@built/react/components/(.*)": "<rootDir>/src/components/$1",
       '(.*)styles': 'identity-obj-proxy',
       '(.*).css': 'identity-obj-proxy',
     },
